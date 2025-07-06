@@ -9,10 +9,12 @@ import 'features/ui/pages/home_screen/home_screen.dart';
 import 'features/ui/pages/product_details_screen/product_details_screen.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return ScreenUtilInit(
